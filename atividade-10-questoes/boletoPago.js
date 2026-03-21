@@ -1,6 +1,3 @@
-
-
-
 let valorBoleto = 90;
 let diasAtraso = 10;
 let multaFixa = (valorBoleto * 2) / 100
