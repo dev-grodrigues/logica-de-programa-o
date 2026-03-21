@@ -10,11 +10,9 @@ if(media >= 7){
     situacaoFinal = "Aprovado na Média"
 }else if(media < 4){
     situacaoFinal = "Reprovado Direto"
-}else{
- if(notaRec > 6){
+}else if(notaRec > 6){
     situacaoFinal = "Aprovado na Recuperação"
  }else{
     situacaoFinal = "Reprovado na Recuperação"
  }
-};
 console.log(`Sua média foi: ${media} | Situação: ${situacaoFinal}`)
