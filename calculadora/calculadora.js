@@ -1,6 +1,6 @@
-let num1 = 0;
-let num2 = 15;
-let operacao = "+"
+let num1 = 101;
+let num2 = 101;
+let operacao = "*"
 
 function calculadora(num1, num2, operacao){
  let resultado;
@@ -10,9 +10,12 @@ function calculadora(num1, num2, operacao){
  }else if(operacao === "-"){
     resultado = num1 - num2;
 }else if(operacao === "*"){
+   if(num1 > 100 && num2 > 100){
+      return "Operação invalida!"
+   }
     resultado = num1 * num2;
  }else if(operacao === "/"){
-    if(num2 == 0){
+    if(num1 === 0 && num2 === 0){
         return "Erro, Divisão por zero!";    
     }
     resultado = num1 / num2
