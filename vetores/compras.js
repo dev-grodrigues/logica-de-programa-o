@@ -4,5 +4,5 @@ let items = []
 items.push("Arroz", "Feijão", "Leite")
 
 // Retirando o item da primeira posição utilizando metodo shift
-items.shift("Arroz")
+items.shift()
 console.log(items)
