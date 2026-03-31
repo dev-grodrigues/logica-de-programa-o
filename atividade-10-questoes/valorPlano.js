@@ -1,5 +1,5 @@
-const readline = require('readline');
-const rl = readline.createInterface({
+const plano = require('readline');
+const rl = plano.createInterface({
     input: process.stdin,
     output: process.stdout
 });
