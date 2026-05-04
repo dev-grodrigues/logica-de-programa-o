@@ -9,7 +9,7 @@ function calculaSalario(horasTrabalhadas,valorHora){
     if(salarioBruto < 2000){
         return salarioBruto + adicional
     }
-    console.log(`Olá ${nome}
-O seu salário é:R$ ${salarioBruto}`)
+    return salarioBruto
 }
-calculaSalario(horasTrabalhadas, valorHora)
+    console.log(`Olá ${nome}
+O seu salário é: R$`, calculaSalario(horasTrabalhadas, valorHora))
